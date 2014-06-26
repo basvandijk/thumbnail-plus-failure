@@ -6,9 +6,9 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 extra-source-files:
-  agility-and-grace_03_gimp.jpg
-  agility-and-grace_03_gimp.png
-  agility-and-grace_03_gimp.gif
+  test.jpg
+  test.png
+  test.gif
 
 executable thumbnail-plus-failure
   main-is:             Main.hs
