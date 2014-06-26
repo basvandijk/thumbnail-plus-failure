@@ -8,7 +8,7 @@ import System.Environment
 
 main :: IO ()
 main = do
-  [jpgFile] <- getArgs
-  mbInf <- withBinaryFile jpgFile ReadMode $ \h ->
+  [file] <- getArgs
+  mbInf <- withBinaryFile file ReadMode $ \h ->
              sourceHandle h $$ sinkImageInfo
   print mbInf
